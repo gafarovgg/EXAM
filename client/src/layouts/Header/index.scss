@@ -1,0 +1,22 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left-header {
+    color: #fd5f00;
+  }
+  .right-header {
+    nav {
+      ul {
+        display: flex;
+        gap: 2rem;
+        li {
+          a {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.components {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+  .boxes1 {
+    background-color: gray;
+  }
+  .boxes2 {
+    background-color: orange;
+  }
+  .boxes3 {
+    background-color: red;
+  }
+}
+
+.ourleadership {
+  margin-top: 2rem;
+  text-align: center;
+  h1 {
+    font-size: 64px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 4rem;
+    color: #939393;
+    margin-bottom: 3rem;
+  }
+}
