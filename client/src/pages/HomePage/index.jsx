@@ -3,6 +3,10 @@ import { Helmet } from "react-helmet";
 import { Carousel } from "antd";
 import { Grid } from "antd";
 import { Col, Divider, Row } from "antd";
+import { RiFacebookCircleFill } from "react-icons/ri";
+import { RiTwitterFill } from "react-icons/ri";
+import { RiInstagramFill } from "react-icons/ri";
+
 import axios from "axios";
 import { Card } from "antd";
 const { Meta } = Card;
@@ -129,6 +133,73 @@ const HomePage = () => {
               corporis, eius, eos <br />
               consectetur consequuntur sit. Aut, perspiciatis, reprehenderit.
             </p>
+            <div className="salam">
+              <Row gutter={16}>
+                <Col className="gutter-row" span={6} xs={24} md={12} lg={6}>
+                  <Card
+                    hoverable
+                    // style={{ width: 240 }}
+                    cover={
+                      <img
+                        alt="example"
+                        src="https://preview.colorlib.com/theme/foundation/images/person_1.jpg"
+                      />
+                    }
+                  >
+                    <Meta
+                      title="Mining Expert"
+                      description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, repellat. At, soluta. Repellendus vero, consequuntur!"
+                    />
+
+                    <RiFacebookCircleFill className="icons" />
+
+                    <RiTwitterFill className="icons" />
+                    <RiInstagramFill className="icons" />
+                  </Card>
+                  <Card
+                    hoverable
+                    // style={{ width: 240 }}
+                    cover={
+                      <img
+                        alt="example"
+                        src="https://preview.colorlib.com/theme/foundation/images/person_2.jpg"
+                      />
+                    }
+                  >
+                    <Meta
+                      title="PROJECT MANAGER"
+                      description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, repellat. At, soluta. Repellendus vero, consequuntur!"
+                    />
+
+                    <RiFacebookCircleFill className="icons" />
+
+                    <RiTwitterFill className="icons" />
+                    <RiInstagramFill className="icons" />
+                  </Card>
+                  <Card
+                    hoverable
+                    // style={{ width: 240 }}
+                    cover={
+                      <img
+                        alt="example"
+                        src="https://preview.colorlib.com/theme/foundation/images/person_3.jpg"
+                      />
+                    }
+                    style={{ marginBottom: "3rem" }}
+                  >
+                    <Meta
+                      title="ENGINEER"
+                      description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, repellat. At, soluta. Repellendus vero, consequuntur!"
+                    />
+
+                    <RiFacebookCircleFill className="icons" />
+
+                    <RiTwitterFill className="icons" />
+                    <RiInstagramFill className="icons" />
+                  </Card>
+                </Col>
+              </Row>
+            </div>
           </div>
         </div>
       </section>

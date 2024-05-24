@@ -1,0 +1,55 @@
+#footer {
+  background-color: #333333;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+
+  .left-footer {
+    margin-top: 3rem;
+    h1 {
+      margin-bottom: 2rem;
+    }
+  }
+  .middle-footer {
+    margin-top: 3rem;
+    h1 {
+      margin-bottom: 2rem;
+    }
+    nav {
+      ul {
+        li {
+          a {
+            gap: 20px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .right-footer {
+    margin-top: 3rem;
+    .some {
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    .followus {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+    .iconssocial {
+      font-size: 2rem;
+    }
+  }
+  h1 {
+    color: #fff;
+  }
+}
+.lastone {
+  color: white;
+  margin-top: 3rem;
+  text-align: center;
+}
