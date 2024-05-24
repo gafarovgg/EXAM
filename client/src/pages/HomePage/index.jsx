@@ -37,7 +37,7 @@ const HomePage = () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Home Page</title>
+        <title>HOME PAGE</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <section id="banner">
@@ -135,7 +135,18 @@ const HomePage = () => {
             </p>
             <div className="salam">
               <Row gutter={16}>
-                <Col className="gutter-row" span={6} xs={24} md={12} lg={6}>
+                <Col
+                  className="gutter-row ship"
+                  // span={24}
+                  // xs={24}
+                  // md={12}
+                  // lg={6}
+                  style={{
+                    display: "flex",
+                    width: "100%",
+                    marginBottom: "3rem",
+                  }}
+                >
                   <Card
                     hoverable
                     // style={{ width: 240 }}
@@ -152,7 +163,6 @@ const HomePage = () => {
                     />
 
                     <RiFacebookCircleFill className="icons" />
-
                     <RiTwitterFill className="icons" />
                     <RiInstagramFill className="icons" />
                   </Card>
@@ -185,17 +195,90 @@ const HomePage = () => {
                         src="https://preview.colorlib.com/theme/foundation/images/person_3.jpg"
                       />
                     }
-                    style={{ marginBottom: "3rem" }}
                   >
                     <Meta
                       title="ENGINEER"
                       description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, repellat. At, soluta. Repellendus vero, consequuntur!"
                     />
-
                     <RiFacebookCircleFill className="icons" />
-
                     <RiTwitterFill className="icons" />
                     <RiInstagramFill className="icons" />
+                  </Card>
+                </Col>
+              </Row>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="ourblog">
+            <h1>OUR BLOG</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              corporis, eius, eos <br />
+              consectetur consequuntur sit. Aut, perspiciatis, reprehenderit.
+            </p>
+            <div className="blog-title">
+              <Row gutter={16}>
+                <Col
+                  className="gutter-row ship"
+                  // span={6}
+                  // xs={24}
+                  // md={12}
+                  // lg={6}
+                  style={{
+                    display: "flex",
+                    width: "100%",
+                    marginBottom: "3rem",
+                    gap: "3rem",
+                  }}
+                >
+                  <Card
+                    hoverable
+                    // style={{ width: 240 }}
+                    cover={
+                      <img
+                        alt="example"
+                        src="https://preview.colorlib.com/theme/foundation/images/hero_1_no-text.jpg"
+                      />
+                    }
+                  >
+                    <Meta
+                      title="How to Invest In Investing Company"
+                      description="JANUARY 18, 2019 BY JAMES COOPER"
+                    />
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Quaerat et suscipit iste libero neque. Vitae quidem
+                      ducimus voluptatibus nemo cum odio ab enim nisi
+                    </span>
+                    <div className="getstart">
+                      <a href="#">Get Started</a>
+                    </div>
+                  </Card>
+                  <Card
+                    hoverable
+                    // style={{ width: 240 }}
+                    cover={
+                      <img
+                        alt="example"
+                        src="https://preview.colorlib.com/theme/foundation/images/hero_2_no-text.jpg"
+                      />
+                    }
+                  >
+                    <Meta
+                      title="How to Invest In Investing Company"
+                      description="JANUARY 18, 2019 BY JAMES COOPER"
+                    />
+                    <span>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Quaerat et suscipit iste libero neque. Vitae quidem
+                      ducimus voluptatibus nemo cum odio ab enim nisi
+                    </span>
+                    <div className="getstart">
+                      <a href="#">Get Started</a>
+                    </div>
                   </Card>
                 </Col>
               </Row>

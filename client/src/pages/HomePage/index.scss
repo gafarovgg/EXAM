@@ -32,3 +32,32 @@
     font-size: 2rem;
   }
 }
+.ourblog {
+  margin-top: 2rem;
+  text-align: center;
+  .blog-title {
+    text-align: start;
+  }
+  h1 {
+    font-size: 64px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 4rem;
+    color: #939393;
+    margin-bottom: 3rem;
+  }
+
+  .icons {
+    margin: 1rem;
+    font-size: 2rem;
+  }
+}
+.getstart {
+  margin: 2rem 0;
+  font-size: 16px;
+  a {
+    color: orange;
+  }
+}
